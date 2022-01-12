@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article>
+    <h1 class="title">Register</h1>
+    <p>Create your account. It's free and only takes a minute.</p>
+    <form class="form" action="">
+        <input class="name" type="text" placeholder="Firstname" name="firstname" pattern="[A-Z][a-z]{3,16}" required>
+        <input class="name" type="text" placeholder="Lastname" name="Lastname" pattern="[A-Z][a-z]{3,16}" required>
+        <input class="data" type="email" placeholder="Email" name="email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
+        <input class="data" type="password" placeholder="Password" name="password" required>
+        <input class="data" type="password" placeholder="Confirm password" required>
+        <label>
+          <input class="custom-checkbox" type="checkbox" required>
+          I accept the <a href="#" target="_blank">Terms of Use</a> & <a href="#" target="_blank">Privacy Police</a>
+        </label>
+        <button type="submit">Register Now</button>
+    </form>
+  </article>
+</body>
+</html>
