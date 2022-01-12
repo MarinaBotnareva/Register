@@ -5,18 +5,17 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 article {
   margin: 150px auto;
-  width: 440px;
+  width: 390px;
   background-color: #f1f1f1;
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 .title {
   overflow: hidden;
   text-align: center;
-  font-size: 33px;
+  font-size: 30px;
   color: #5f5f5f;
   font-weight: 100;
 }
@@ -38,44 +37,52 @@ article {
   margin-right: -100%;
   right: -14px;
 }
-p, label {
-  color: #868686;
-  font-size: 16px;
-  text-align: center;
-  padding: 20px 0;
+
+form {
+  width: 330px;
 }
 
 .name, .data {
-  width: 180px;
-  margin: 10px;
-  padding: 15px;
+  margin: 10px 0;
+  padding: 10px;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #cccbcb;
   color: #777777;
 }
 
+.name {
+  width: 48%;
+}
+
+.name + .name {
+  margin-left: 8px;
+}
+
+.data {
+  width: 100%;
+}
+
+p, label {
+  color: #868686;
+  font-size: 13.5px;
+  text-align: center;
+  padding: 10px 0;
+}
+
 input::placeholder {
   color: #b1b1b1;
 } 
 
-.data {
-  width: 386px;
-}
-
-form {
-  width: 410px;
-}
-
 label {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 button {
-  width: 386px;
-  margin: 10px;
-  padding: 15px 10px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
   font-size: 20px;
   border-radius: 5px;
   border:none;
